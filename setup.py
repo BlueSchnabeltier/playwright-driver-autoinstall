@@ -8,4 +8,4 @@ class InstallPlaywrightDrivers(install):
         check_output([path, "-m", "install", "playwright"], shell=True)
         install.run(self)
 
-setup(install_requires=["playwright"], cmdclass={"install": InstallPlaywrightDrivers})
+setup(name="playwright-driver-autoinstall", install_requires=["playwright"], cmdclass={"install": InstallPlaywrightDrivers})
