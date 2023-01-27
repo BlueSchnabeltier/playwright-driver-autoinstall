@@ -5,7 +5,7 @@ from setuptools.command.install import install
 
 class InstallPlaywrightDrivers(install):
     def run(self):
-        run([path, "-m", "playwright", "install"], shell=True)
+        run(f"{path} -m install playwright", shell=True)
         install.run(self)
 
-setup(name="playwright-python-driver-autoinstall", install_requires=["playwright"], cmdclass={"install": InstallPlaywrightDrivers})
+setup(install_requires=["playwright"], cmdclass={"install": InstallPlaywrightDrivers})
