@@ -3,7 +3,7 @@ This fork was made to automatically install playwright with its drivers.
 
 ## Install
 ```bash
-pip install git+https://github.com/BlueSchnabeltier/botright-plus.git
+pip install https://github.com/BlueSchnabeltier/playwright-python-driver-autoinstall.git
 ```
 
 # 🎭 [Playwright](https://playwright.dev) for Python [![PyPI version](https://badge.fury.io/py/playwright.svg)](https://pypi.python.org/pypi/playwright/) [![Anaconda version](https://img.shields.io/conda/v/microsoft/playwright)](https://anaconda.org/Microsoft/playwright) [![Join Slack](https://img.shields.io/badge/join-slack-infomational)](https://aka.ms/playwright-slack)
