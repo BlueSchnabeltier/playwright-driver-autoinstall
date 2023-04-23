@@ -1,4 +1,4 @@
-# This Fork
+# playwright-driver-autoinstall
 This was made to automatically install playwright along with its drivers.
 
 ## Install
