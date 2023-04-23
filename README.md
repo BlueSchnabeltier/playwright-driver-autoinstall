@@ -1,5 +1,5 @@
 # This Fork
-This fork was made to automatically install playwright along with its drivers.
+This was made to automatically install playwright along with its drivers.
 
 ## Install
 ```bash
